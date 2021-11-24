@@ -5,8 +5,8 @@
 This repository contains code for the implementation of Neonatal Seizure Detection. A typical neonatal seizure and non-seizure event is illustrated below. Continuous EEG signals are filtered and segmented with varying window lengths of 1, 2, 4, 8, and 16 seconds. The data used here for experimentation can be downloaded from [here](https://zenodo.org/record/1280684).
 
 <p>
-    <img src="assets/seizure_activity.png" width="500" alt="Seizure Event">
-    <img src="assets/non_seizure_activity.png" width="500" alt="Non-seizure Event">
+    <img src="assets/seizure_activity.png" width="450" alt="Seizure Event">
+    <img src="assets/non_seizure_activity.png" width="450" alt="Non-seizure Event">
 </p>
 
 This end-to-end architecture receives raw EEG signal, processes it and classifies it as ictal or normal activity. After preprocessing, the signal is passed to a feature extraction engine that extracts the necessary feature set Fd. It is followed by a scalable machine learning (ML) classifier that performs prediction as illustrated in the figure below.
