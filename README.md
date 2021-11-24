@@ -17,13 +17,13 @@ This end-to-end architecture receives raw EEG signal, processes it and classifie
 
 ## Files description
 
-- [dataprocessing.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/datapreprocessing.ipynb) -> Notebook for converting edf files to csv files.
-- [filtering.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/filtering.ipynb)      -> Notebook for filtering the input EEG signals in order to observe the specific frequencies.
-- [segmentation.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/segmentation.ipynb)   -> Notebook for segmenting the input into appropriate windows lengths and overlaps.
-- [features_final.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/features_final.ipynb) -> Notebook for extracting relevant features from segmented data.
-- [protoNN_example.py](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/protoNN_example.py)   -> Script used for running protoNN model using *.npy* files.
-- [inference_time.py](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/inference_time.py)    -> Script used to record and report inference times.
-- [knn.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/knn.ipynb)            -> Notebook used to compare results of ProtoNN and kNN models.
+1. [dataprocessing.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/datapreprocessing.ipynb) -> Notebook for converting edf files to csv files.
+2. [filtering.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/filtering.ipynb)      -> Notebook for filtering the input EEG signals in order to observe the specific frequencies.
+3. [segmentation.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/segmentation.ipynb)   -> Notebook for segmenting the input into appropriate windows lengths and overlaps.
+4. [features_final.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/features_final.ipynb) -> Notebook for extracting relevant features from segmented data.
+5. [protoNN_example.py](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/protoNN_example.py)   -> Script used for running protoNN model using *.npy* files.
+6. [inference_time.py](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/inference_time.py)    -> Script used to record and report inference times.
+7. [knn.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/knn.ipynb)            -> Notebook used to compare results of ProtoNN and kNN models.
 
 ## Dependencies
 
