@@ -1,9 +1,13 @@
 # NeonatalSeizureDetection
 
+## Description
+
 This repository contains code for the implementation of Neonatal Seizure Detection. A typical neonatal seizure and non-seizure event is illustrated below. Continuous EEG signals are filtered and segmented with varying window lengths of 1, 2, 4, 8, and 16 seconds. The data used here for experimentation can be downloaded from [here](https://zenodo.org/record/1280684).
 
-![Seizure Event](assets/seizure_activity.png)
-![Non-seizure Event](assets/non_seizure_activity.png)
+<p>
+    <img src="assets/seizure_activity.png" width="300" alt="Seizure Event">
+    <img src="assets/non_seizure_activity.png" width="300" alt="Non-seizure Event">
+</p>
 
 ## Files description
 
@@ -47,6 +51,14 @@ If you wish to use virtual environment,
     ```
         $ python protoNN_example.py -d DATA_DIR -e 500 -o OUT_DIR
     ```
+
+## Authors
+
+[**Vishal Nagarajan**](https://www.linkedin.com/in/vishalnagarajan/)
+
+[**Ashwini Muralidharan**](https://github.com/Ashwiinii)
+
+[**Deekshitha Sriraman**](https://github.com/dtg311)
 
 ## Acknowledgements
 
