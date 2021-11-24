@@ -9,6 +9,12 @@ This repository contains code for the implementation of Neonatal Seizure Detecti
     <img src="assets/non_seizure_activity.png" width="500" alt="Non-seizure Event">
 </p>
 
+This end-to-end architecture receives raw EEG signal, processes it and classifies it as ictal or normal activity. After preprocessing, the signal is passed to a feature extraction engine that extracts the necessary feature set Fd. It is followed by a scalable machine learning (ML) classifier that performs prediction as illustrated in the figure below.
+
+<p>
+    <img src="assets/Pipeline_architecture.png" width="500" alt="Pipeline Architecture">
+</p>
+
 ## Files description
 
 - [dataprocessing.ipynb](https://github.com/vishaln15/NeonatalSeizureDetection/blob/main/datapreprocessing.ipynb) -> Notebook for converting edf files to csv files.
