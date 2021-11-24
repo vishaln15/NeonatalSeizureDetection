@@ -128,4 +128,4 @@ for i in range(int(sys.argv[1])):
     times.append(end - start)
 
 # print(times)
-print("%.5f milli seconds!" % (np.min(times) * 1000))
+print("%.5f milli seconds!" % (np.mean(times) * 1000))
