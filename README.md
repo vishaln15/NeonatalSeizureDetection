@@ -45,7 +45,7 @@ If you wish to use virtual environment,
     $ pip install -r requirements.txt
 ```
 
-# Usage
+## Usage
 
 1. Clone the **ProtoNN** package from [here](https://github.com/microsoft/edgeml/), **antropy** package from [here](https://github.com/raphaelvallat/antropy/), and **envelope_derivative_operator** package from [here](https://github.com/otoolej/envelope_derivative_operator/).
 
