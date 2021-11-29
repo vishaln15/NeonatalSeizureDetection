@@ -2,7 +2,8 @@
 
 ## Description
 
-This repository contains code for the implementation of Neonatal Seizure Detection. A typical neonatal seizure and non-seizure event is illustrated below. Continuous EEG signals are filtered and segmented with varying window lengths of 1, 2, 4, 8, and 16 seconds. The data used here for experimentation can be downloaded from [here](https://zenodo.org/record/1280684).
+This repository contains code for the implementation of the paper titled "Scalable Machine Learning Architecture for
+Neonatal Seizure Detection on Ultra-Edge Devices", which has been **accepted** at the [AISP '22: 2<sup>nd</sup> International Conference on Artificial Intelligence and Signal Processing](https://www.aisp.in/). A typical neonatal seizure and non-seizure event is illustrated below. Continuous EEG signals are filtered and segmented with varying window lengths of 1, 2, 4, 8, and 16 seconds. The data used here for experimentation can be downloaded from [here](https://zenodo.org/record/1280684).
 
 <p>
     <img src="assets/seizure_activity.png" width="450" alt="Seizure Event">
@@ -65,6 +66,10 @@ If you wish to use virtual environment,
 [**Ashwini Muralidharan**](https://github.com/Ashwiinii)
 
 [**Deekshitha Sriraman**](https://github.com/dtg311)
+
+## Publication Link
+
+Publication link is yet to be added.
 
 ## Acknowledgements
 
