@@ -2,6 +2,21 @@
 
 ## Description
 
+Link: https://arxiv.org/abs/2111.15569
+
+Citation:
+
+```
+@misc{nagarajan2021scalable,
+      title={Scalable Machine Learning Architecture for Neonatal Seizure Detection on Ultra-Edge Devices}, 
+      author={Vishal Nagarajan and Ashwini Muralidharan and Deekshitha Sriraman and Pravin Kumar S},
+      year={2021},
+      eprint={2111.15569},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP}
+}
+```
+
 This repository contains code for the implementation of the paper titled "Scalable Machine Learning Architecture for
 Neonatal Seizure Detection on Ultra-Edge Devices", which has been **accepted** at the [AISP '22: 2<sup>nd</sup> International Conference on Artificial Intelligence and Signal Processing](https://www.aisp.in/). A typical neonatal seizure and non-seizure event is illustrated below. Continuous EEG signals are filtered and segmented with varying window lengths of 1, 2, 4, 8, and 16 seconds. The data used here for experimentation can be downloaded from [here](https://zenodo.org/record/1280684).
 
@@ -67,9 +82,6 @@ If you wish to use virtual environment,
 
 [**Deekshitha Sriraman**](https://github.com/dtg311)
 
-## Publication Link
-
-Publication link is yet to be added.
 
 ## Acknowledgements
 
