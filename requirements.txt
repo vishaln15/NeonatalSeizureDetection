@@ -7,7 +7,7 @@ decorator==5.0.9
 edgeml-pytorch==0.3.0
 entrypoints==0.3
 ipykernel==5.3.4
-ipython==7.26.0
+ipython==7.31.1
 joblib==1.0.1
 jupyter_client==6.1.12
 jupyter_core==4.7.1
