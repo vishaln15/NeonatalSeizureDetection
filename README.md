@@ -2,23 +2,23 @@
 
 ## Description
 
-Link: https://arxiv.org/abs/2111.15569
+Link: https://ieeexplore.ieee.org/document/9760524
 
 Citation:
 
 ```
-@misc{nagarajan2021scalable,
-      title={Scalable Machine Learning Architecture for Neonatal Seizure Detection on Ultra-Edge Devices}, 
-      author={Vishal Nagarajan and Ashwini Muralidharan and Deekshitha Sriraman and Pravin Kumar S},
-      year={2021},
-      eprint={2111.15569},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
-}
+@INPROCEEDINGS{9760524,
+    author={Nagarajan, Vishal and Muralidharan, Ashwini and Sriraman, Deekshitha and Pravin Kumar, S},  
+    booktitle={2022 2nd International Conference on Artificial Intelligence and Signal Processing (AISP)},   
+    title={Scalable Machine Learning Architecture for Neonatal Seizure Detection on Ultra-Edge Devices},   
+    year={2022},  
+    volume={},  
+    number={},  
+    pages={1-6},  
+    doi={10.1109/AISP53593.2022.9760524}}
 ```
 
-This repository contains code for the implementation of the paper titled "Scalable Machine Learning Architecture for
-Neonatal Seizure Detection on Ultra-Edge Devices", which has been **accepted** at the [AISP '22: 2<sup>nd</sup> International Conference on Artificial Intelligence and Signal Processing](https://www.aisp.in/). A typical neonatal seizure and non-seizure event is illustrated below. Continuous EEG signals are filtered and segmented with varying window lengths of 1, 2, 4, 8, and 16 seconds. The data used here for experimentation can be downloaded from [here](https://zenodo.org/record/1280684).
+This repository contains code for the implementation of the paper titled **Scalable Machine Learning Architecture for Neonatal Seizure Detection on Ultra-Edge Devices**, which has been **published** at the [AISP '22: 2<sup>nd</sup> International Conference on Artificial Intelligence and Signal Processing](https://www.aisp.in/). A typical neonatal seizure and non-seizure event is illustrated below. Continuous EEG signals are filtered and segmented with varying window lengths of 1, 2, 4, 8, and 16 seconds. The data used here for experimentation can be downloaded from [here](https://zenodo.org/record/1280684).
 
 <p>
     <img src="assets/seizure_activity.png" width="450" alt="Seizure Event">
