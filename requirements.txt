@@ -11,7 +11,7 @@ ipython==7.31.1
 joblib==1.0.1
 jupyter_client==6.1.12
 jupyter_core==4.7.1
-jupyter_server==1.15.4
+jupyter_server==1.17.1
 jupyterlab==3.1.7
 jupyterlab_pygments==0.1.2
 jupyterlab_server==2.6.2
