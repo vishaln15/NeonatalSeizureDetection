@@ -8,7 +8,7 @@ edgeml-pytorch==0.3.0
 entrypoints==0.3
 ipykernel==5.3.4
 ipython==7.31.1
-joblib==1.0.1
+joblib==1.2.0
 jupyter_client==6.1.12
 jupyter_core==4.7.1
 jupyter_server==1.17.1
